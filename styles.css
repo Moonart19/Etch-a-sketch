@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.sketch-area{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 100px auto;
+}
+
+.cell{
+    border: 1px solid whitesmoke;
+    box-shadow: 1px 1px white;
+}
+
+h1, .btn-cont{
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.pop-up, .rainbow, .clear{
+    background-color: darkcyan;
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor:pointer;
+}
