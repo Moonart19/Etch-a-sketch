@@ -1,10 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: monospace;
 }
 
 body{
-    background-color: aliceblue;
+    padding-top: 30px;
+    background: #833AB4;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%,
+     rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%);
 }
 
 .sketch-area{
@@ -12,28 +17,36 @@ body{
     flex-wrap: wrap;
     background-color: white;
     margin: 100px auto;
+    border: 2em ridge rebeccapurple;
 }
 
 .cell{
     border: 1px solid whitesmoke;
-    box-shadow: 1px 1px white;
+    box-shadow: 1px 1px wheat;
 }
 
-h1, .btn-cont{
+h1, .btn-container{
     text-align: center;
 }
+
 
 h1{
     margin-bottom: 20px;
     font-size: 50px;
+    background-color: antiquewhite;
 }
 
-.pop-up, .rainbow, .clear{
-    background-color: darkcyan;
+button {
+    background-color: brown;
     color: white;
-    padding: 8px;
-    font-size: 20px;
-    border: none;
-    border-radius: 8px;
-    cursor:pointer;
+    padding: 10px;
+    border: 5px ridge rebeccapurple;
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 5px ridge red;
 }
