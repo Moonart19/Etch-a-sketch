@@ -16,7 +16,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     background-color: white;
-    margin: 100px auto;
+    margin: 50px auto;
     border: 2em ridge rebeccapurple;
 }
 
@@ -49,4 +49,8 @@ button {
 
 button:hover {
     border: 5px ridge red;
+}
+
+button:active {
+    opacity: 0.7;
 }
